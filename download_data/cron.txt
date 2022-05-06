@@ -1,0 +1,1773 @@
+/bin/sh: /usr/local/bin/python: No such file or directory
+/bin/sh: /usr/local/bin/python: No such file or directory
+/bin/sh: /usr/local/bin/python: No such file or directory
+/bin/sh: /usr/local/bin/python: No such file or directory
+/bin/sh: /usr/local/bin/python: No such file or directory
+/bin/sh: /usr/local/bin/python: No such file or directory
+/bin/sh: /usr/local/bin/python: No such file or directory
+/bin/sh: /usr/local/bin/python: No such file or directory
+/bin/sh: /usr/local/bin/python: No such file or directory
+/bin/sh: /usr/local/bin/python: No such file or directory
+  File "download_espn_data.py", line 11
+    engine = create_engine(f'postgresql://{DB_USER}@{DB_HOST}:{DB_PORT}/{DB_NAME}')
+                                                                                 ^
+SyntaxError: invalid syntax
+  File "download_espn_data.py", line 11
+    engine = create_engine(f'postgresql://{DB_USER}@{DB_HOST}:{DB_PORT}/{DB_NAME}')
+                                                                                 ^
+SyntaxError: invalid syntax
+  File "download_espn_data.py", line 11
+    engine = create_engine(f'postgresql://{DB_USER}@{DB_HOST}:{DB_PORT}/{DB_NAME}')
+                                                                                 ^
+SyntaxError: invalid syntax
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+./parse_players.sh: line 38: syntax error near unexpected token `newline'
+./parse_players.sh: line 38: `<tr class="PlayerRow__Overview PlayerRow__Overview--expandable Table__TR Table__even">'
+Traceback (most recent call last):
+  File "download_espn_data.py", line 17, in <module>
+    data = json.load(json_file)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+./parse_players.sh: line 38: syntax error near unexpected token `newline'
+./parse_players.sh: line 38: `<tr class="PlayerRow__Overview PlayerRow__Overview--expandable Table__TR Table__even">'
+Traceback (most recent call last):
+  File "download_espn_data.py", line 17, in <module>
+    data = json.load(json_file)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+./parse_players.sh: line 38: syntax error near unexpected token `newline'
+./parse_players.sh: line 38: `<tr class="PlayerRow__Overview PlayerRow__Overview--expandable Table__TR Table__even">'
+Traceback (most recent call last):
+  File "download_espn_data.py", line 17, in <module>
+    data = json.load(json_file)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+./parse_players.sh: line 38: syntax error near unexpected token `newline'
+./parse_players.sh: line 38: `<tr class="PlayerRow__Overview PlayerRow__Overview--expandable Table__TR Table__even">'
+Traceback (most recent call last):
+  File "download_espn_data.py", line 17, in <module>
+    data = json.load(json_file)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+./parse_players.sh: line 38: syntax error near unexpected token `newline'
+./parse_players.sh: line 38: `<tr class="PlayerRow__Overview PlayerRow__Overview--expandable Table__TR Table__even">'
+Traceback (most recent call last):
+  File "download_espn_data.py", line 17, in <module>
+    data = json.load(json_file)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+./parse_players.sh: line 38: syntax error near unexpected token `newline'
+./parse_players.sh: line 38: `<tr class="PlayerRow__Overview PlayerRow__Overview--expandable Table__TR Table__even">'
+Traceback (most recent call last):
+  File "download_espn_data.py", line 17, in <module>
+    data = json.load(json_file)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Users/stephenbroe/.pyenv/versions/3.7.3/lib/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+./parse_players.sh: line 38: syntax error near unexpected token `newline'
+./parse_players.sh: line 38: `<tr class="PlayerRow__Overview PlayerRow__Overview--expandable Table__TR Table__even">'
+Traceback (most recent call last):
+  File "download_espn_data.py", line 17, in <module>
+    print(os.walks())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+./parse_players.sh: line 38: syntax error near unexpected token `newline'
+./parse_players.sh: line 38: `<tr class="PlayerRow__Overview PlayerRow__Overview--expandable Table__TR Table__even">'
+<generator object walk at 0x10d886740>
+Traceback (most recent call last):
+  File "download_espn_data.py", line 20, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+./parse_players.sh: line 38: syntax error near unexpected token `newline'
+./parse_players.sh: line 38: `<tr class="PlayerRow__Overview PlayerRow__Overview--expandable Table__TR Table__even">'
+root is .
+dirs is ['database', 'data']
+other is ['parse_players.sh', 'competition.csv', 'README.md', 'update.sh', 'example.py', 'dashboard.ipynb', 'cron.txt', 'download_espn_data.py', 'game.csv']
+root is ./database
+dirs is ['__pycache__']
+other is ['config.py', 'masters.sql', 'write_players.py', 'write_scores.py']
+root is ./database/__pycache__
+dirs is []
+other is ['config.cpython-37.pyc', 'config.cpython-39.pyc', 'config.cpython-38.pyc']
+root is ./data
+dirs is []
+other is ['data_new.json', 'data.json']
+Traceback (most recent call last):
+  File "download_espn_data.py", line 23, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+./parse_players.sh: line 38: syntax error near unexpected token `newline'
+./parse_players.sh: line 38: `<tr class="PlayerRow__Overview PlayerRow__Overview--expandable Table__TR Table__even">'
+root is .
+dirs is ['database', 'data']
+other is ['parse_players.sh', 'competition.csv', 'README.md', 'update.sh', 'example.py', 'dashboard.ipynb', 'cron.txt', 'download_espn_data.py', 'game.csv']
+root is ./database
+dirs is ['__pycache__']
+other is ['config.py', 'masters.sql', 'write_players.py', 'write_scores.py']
+root is ./database/__pycache__
+dirs is []
+other is ['config.cpython-37.pyc', 'config.cpython-39.pyc', 'config.cpython-38.pyc']
+root is ./data
+dirs is []
+other is ['data_new.json', 'data.json']
+Traceback (most recent call last):
+  File "download_espn_data.py", line 23, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+./parse_players.sh: line 38: syntax error near unexpected token `newline'
+./parse_players.sh: line 38: `<tr class="PlayerRow__Overview PlayerRow__Overview--expandable Table__TR Table__even">'
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+./parse_players.sh: line 38: syntax error near unexpected token `newline'
+./parse_players.sh: line 38: `<tr class="PlayerRow__Overview PlayerRow__Overview--expandable Table__TR Table__even">'
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 23, in <module>
+    with open(f'{cwd}download_data/data/data_new.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_datadownload_data/data/data_new.json'
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+./parse_players.sh: line 38: syntax error near unexpected token `newline'
+./parse_players.sh: line 38: `<tr class="PlayerRow__Overview PlayerRow__Overview--expandable Table__TR Table__even">'
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 23, in <module>
+    with open(f'{cwd}/download_data/data/data_new.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data/download_data/data/data_new.json'
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+./parse_players.sh: line 38: syntax error near unexpected token `newline'
+./parse_players.sh: line 38: `<tr class="PlayerRow__Overview PlayerRow__Overview--expandable Table__TR Table__even">'
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 23, in <module>
+    with open(f'{cwd}/download_data/data/data_new.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data/download_data/data/data_new.json'
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 23, in <module>
+    with open(f'{cwd}/download_data/data/data_new.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data/download_data/data/data_new.json'
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 23, in <module>
+    with open(f'{cwd}/download_data/data/data_new.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data/download_data/data/data_new.json'
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 23, in <module>
+    with open(f'{cwd}/download_data/data/data_new.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data/download_data/data/data_new.json'
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+update.sh: line 23: jq: command not found
+Error: writing output failed: Broken pipe
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+Traceback (most recent call last):
+  File "download_espn_data.py", line 24, in <module>
+    data = json.load(json_file)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+0 Jason Day
+1 Joel Dahmen
+2 Paul Barjon
+3 Matthew Wolff
+4 Denny McCarthy
+5 Aaron Rai
+6 Callum Tarren
+7 Rickie Fowler
+8 Stewart Cink
+9 Wesley Bryan
+10 James Hahn
+11 Mackenzie Hughes
+12 Dylan Wu
+13 K.H. Lee
+14 Nick Watney
+15 Adam Svensson
+16 Rory Sabbatini
+17 Austin Cook
+18 Peter Malnati
+19 Sergio Garcia
+20 Max Homa
+21 Matt Kuchar
+22 Si Woo Kim
+23 Cam Davis
+24 Matt Wallace
+25 Harry Higgs
+26 Stephan Jaeger
+27 Matthew NeSmith
+28 Jim Knous
+29 Chase Seiffert
+30 Ben Kohles
+31 Kurt Kitayama
+32 Nick Taylor
+33 Rory McIlroy
+34 Jim Herman
+35 Scott Piercy
+36 Turk Pettit
+37 Hank Lebioda
+38 Scott Gutschewski
+39 Luke List
+40 Patrick Reed
+41 William McGirt
+42 Richy Werenski
+43 Jhonattan Vegas
+44 Russell Knox
+45 Ben Martin
+46 Russell Henley
+47 Peter Uihlein
+48 Cameron Young
+49 Drew Nesbitt
+50 Austin Smotherman
+51 Brendan Steele
+52 Anirban Lahiri
+53 C.T. Pan
+54 Marc Leishman
+55 J.T. Poston
+56 Matt Fitzpatrick
+57 Danny Lee
+58 Justin Lower
+59 Hayden Buckley
+60 Adam Schenk
+61 Taylor Moore
+62 Roger Sloan
+63 Keith Mitchell
+64 Chad Ramey
+65 Vaughn Taylor
+66 David Lipsky
+67 Brandon Hagy
+68 Brian Harman
+69 Camilo Villegas
+70 Chez Reavie
+71 Tony Finau
+72 Francesco Molinari
+73 Webb Simpson
+74 Corey Conners
+75 Abraham Ancer
+76 Robert Garrigus
+77 Dawie van der Walt
+78 Seth Reeves
+79 Matthias Schwab
+80 Chesson Hadley
+81 Alex Smalley
+82 Trey Mullinax
+83 Gary Woodland
+84 Nate Lashley
+85 Adam Long
+86 Jason Dufner
+87 Cameron Percy
+88 David Skinns
+89 Brandon Matthews
+90 Brandon Wu
+91 Kevin Chappell
+92 Kramer Hickok
+93 Henrik Norlander
+94 Martin Laird
+95 Tyrrell Hatton
+96 Sepp Straka
+97 Seamus Power
+98 Keegan Bradley
+99 Lanto Griffin
+100 Zach Johnson
+101 Charl Schwartzel
+102 Kelly Kraft
+103 Joseph Bramlett
+104 Bryson Nimmer
+105 Charley Hoffman
+106 Michael Thompson
+107 Sung Kang
+108 Michael Gligic
+109 Jonas Blixt
+110 Troy Merritt
+111 John Huh
+112 Doug Ghim
+113 Dylan Frittelli
+114 Luke Donald
+115 Tommy Gainey
+116 Brice Garnett
+117 Mark Hubbard
+118 Andrew Putnam
+119 David Lingmerth
+120 Andrew Novak
+121 Greyson Sigg
+122 Bo Van Pelt
+123 Vince Whaley
+124 Tyler Duncan
+125 Bo Hoag
+126 Jonathan Byrd
+127 Ryan Blaum
+128 Ryan Armour
+129 Brian Stuard
+130 Johnson Wagner
+131 Jared Wolfe
+132 Brett Drewitt
+133 Morgan Hoffmann
+134 Kevin Tway
+135 Bill Haas
+136 Kiradech Aphibarnrat
+137 Joshua Creel
+138 Eugenio Chacarra (a)
+139 Matt Jones
+140 Satoshi Kodaira
+141 Kevin Streelman
+142 Doc Redman
+143 Aaron Baddeley
+144 Branden Grace
+145 Lucas Glover
+146 Larkin Gross
+147 Norman Xiong
+148 Lee Hodges
+149 Jacob Bridgeman (a)
+150 Beau Hossler
+151 Greg Odom Jr. (a)
+152 Max McGreevy
+153 Nicholas Thompson
+154 Martin Trainer
+155 Curtis Thompson
+Jason Day
+Joel Dahmen
+Paul Barjon
+Matthew Wolff
+Denny McCarthy
+Aaron Rai
+Callum Tarren
+Rickie Fowler
+Stewart Cink
+Wesley Bryan
+James Hahn
+Mackenzie Hughes
+Dylan Wu
+K.H. Lee
+Nick Watney
+Adam Svensson
+Rory Sabbatini
+Austin Cook
+Peter Malnati
+Sergio Garcia
+Max Homa
+Matt Kuchar
+Si Woo Kim
+Cam Davis
+Matt Wallace
+Harry Higgs
+Stephan Jaeger
+Matthew NeSmith
+Jim Knous
+Chase Seiffert
+Ben Kohles
+Kurt Kitayama
+Nick Taylor
+Rory McIlroy
+Jim Herman
+Scott Piercy
+Turk Pettit
+Hank Lebioda
+Scott Gutschewski
+Luke List
+Patrick Reed
+William McGirt
+Richy Werenski
+Jhonattan Vegas
+Russell Knox
+Ben Martin
+Russell Henley
+Peter Uihlein
+Cameron Young
+Drew Nesbitt
+Austin Smotherman
+Brendan Steele
+Anirban Lahiri
+C.T. Pan
+Marc Leishman
+J.T. Poston
+Matt Fitzpatrick
+Danny Lee
+Justin Lower
+Hayden Buckley
+Adam Schenk
+Taylor Moore
+Roger Sloan
+Keith Mitchell
+Chad Ramey
+Vaughn Taylor
+David Lipsky
+Brandon Hagy
+Brian Harman
+Camilo Villegas
+Chez Reavie
+Tony Finau
+Francesco Molinari
+Webb Simpson
+Corey Conners
+Abraham Ancer
+Robert Garrigus
+Dawie van der Walt
+Seth Reeves
+Matthias Schwab
+Chesson Hadley
+Alex Smalley
+Trey Mullinax
+Gary Woodland
+Nate Lashley
+Adam Long
+Jason Dufner
+Cameron Percy
+David Skinns
+Brandon Matthews
+Brandon Wu
+Kevin Chappell
+Kramer Hickok
+Henrik Norlander
+Martin Laird
+Tyrrell Hatton
+Sepp Straka
+Seamus Power
+Keegan Bradley
+Lanto Griffin
+Zach Johnson
+Charl Schwartzel
+Kelly Kraft
+Joseph Bramlett
+Bryson Nimmer
+Charley Hoffman
+Michael Thompson
+Sung Kang
+Michael Gligic
+Jonas Blixt
+Troy Merritt
+John Huh
+Doug Ghim
+Dylan Frittelli
+Luke Donald
+Tommy Gainey
+Brice Garnett
+Mark Hubbard
+Andrew Putnam
+David Lingmerth
+Andrew Novak
+Greyson Sigg
+Bo Van Pelt
+Vince Whaley
+Tyler Duncan
+Bo Hoag
+Jonathan Byrd
+Ryan Blaum
+Ryan Armour
+Brian Stuard
+Johnson Wagner
+Jared Wolfe
+Brett Drewitt
+Morgan Hoffmann
+Kevin Tway
+Bill Haas
+Kiradech Aphibarnrat
+Joshua Creel
+Eugenio Chacarra (a)
+Matt Jones
+Satoshi Kodaira
+Kevin Streelman
+Doc Redman
+Aaron Baddeley
+Branden Grace
+Lucas Glover
+Larkin Gross
+Norman Xiong
+Lee Hodges
+Jacob Bridgeman (a)
+Beau Hossler
+Greg Odom Jr. (a)
+Max McGreevy
+Nicholas Thompson
+Martin Trainer
+Curtis Thompson
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+0 Jason Day
+1 Joel Dahmen
+2 Paul Barjon
+3 Matthew Wolff
+4 Denny McCarthy
+5 Aaron Rai
+6 Callum Tarren
+7 Rickie Fowler
+8 Stewart Cink
+9 Wesley Bryan
+10 James Hahn
+11 Mackenzie Hughes
+12 Dylan Wu
+13 K.H. Lee
+14 Nick Watney
+15 Adam Svensson
+16 Rory Sabbatini
+17 Austin Cook
+18 Peter Malnati
+19 Sergio Garcia
+20 Max Homa
+21 Matt Kuchar
+22 Si Woo Kim
+23 Cam Davis
+24 Matt Wallace
+25 Harry Higgs
+26 Stephan Jaeger
+27 Matthew NeSmith
+28 Jim Knous
+29 Chase Seiffert
+30 Ben Kohles
+31 Kurt Kitayama
+32 Nick Taylor
+33 Rory McIlroy
+34 Jim Herman
+35 Scott Piercy
+36 Turk Pettit
+37 Hank Lebioda
+38 Scott Gutschewski
+39 Luke List
+40 Patrick Reed
+41 William McGirt
+42 Richy Werenski
+43 Jhonattan Vegas
+44 Russell Knox
+45 Ben Martin
+46 Russell Henley
+47 Peter Uihlein
+48 Cameron Young
+49 Drew Nesbitt
+50 Austin Smotherman
+51 Brendan Steele
+52 Anirban Lahiri
+53 C.T. Pan
+54 Marc Leishman
+55 J.T. Poston
+56 Matt Fitzpatrick
+57 Danny Lee
+58 Justin Lower
+59 Hayden Buckley
+60 Adam Schenk
+61 Taylor Moore
+62 Roger Sloan
+63 Keith Mitchell
+64 Chad Ramey
+65 Vaughn Taylor
+66 David Lipsky
+67 Brandon Hagy
+68 Brian Harman
+69 Camilo Villegas
+70 Chez Reavie
+71 Tony Finau
+72 Francesco Molinari
+73 Webb Simpson
+74 Corey Conners
+75 Abraham Ancer
+76 Robert Garrigus
+77 Dawie van der Walt
+78 Seth Reeves
+79 Matthias Schwab
+80 Chesson Hadley
+81 Alex Smalley
+82 Trey Mullinax
+83 Gary Woodland
+84 Nate Lashley
+85 Adam Long
+86 Jason Dufner
+87 Cameron Percy
+88 David Skinns
+89 Brandon Matthews
+90 Brandon Wu
+91 Kevin Chappell
+92 Kramer Hickok
+93 Henrik Norlander
+94 Martin Laird
+95 Tyrrell Hatton
+96 Sepp Straka
+97 Seamus Power
+98 Keegan Bradley
+99 Lanto Griffin
+100 Zach Johnson
+101 Charl Schwartzel
+102 Kelly Kraft
+103 Joseph Bramlett
+104 Bryson Nimmer
+105 Charley Hoffman
+106 Michael Thompson
+107 Sung Kang
+108 Michael Gligic
+109 Jonas Blixt
+110 Troy Merritt
+111 John Huh
+112 Doug Ghim
+113 Dylan Frittelli
+114 Luke Donald
+115 Tommy Gainey
+116 Brice Garnett
+117 Mark Hubbard
+118 Andrew Putnam
+119 David Lingmerth
+120 Andrew Novak
+121 Greyson Sigg
+122 Bo Van Pelt
+123 Vince Whaley
+124 Tyler Duncan
+125 Bo Hoag
+126 Jonathan Byrd
+127 Ryan Blaum
+128 Ryan Armour
+129 Brian Stuard
+130 Johnson Wagner
+131 Jared Wolfe
+132 Brett Drewitt
+133 Morgan Hoffmann
+134 Kevin Tway
+135 Bill Haas
+136 Kiradech Aphibarnrat
+137 Joshua Creel
+138 Eugenio Chacarra (a)
+139 Matt Jones
+140 Satoshi Kodaira
+141 Kevin Streelman
+142 Doc Redman
+143 Aaron Baddeley
+144 Branden Grace
+145 Lucas Glover
+146 Larkin Gross
+147 Norman Xiong
+148 Lee Hodges
+149 Jacob Bridgeman (a)
+150 Beau Hossler
+151 Greg Odom Jr. (a)
+152 Max McGreevy
+153 Nicholas Thompson
+154 Martin Trainer
+155 Curtis Thompson
+Jason Day
+Joel Dahmen
+Paul Barjon
+Matthew Wolff
+Denny McCarthy
+Aaron Rai
+Callum Tarren
+Rickie Fowler
+Stewart Cink
+Wesley Bryan
+James Hahn
+Mackenzie Hughes
+Dylan Wu
+K.H. Lee
+Nick Watney
+Adam Svensson
+Rory Sabbatini
+Austin Cook
+Peter Malnati
+Sergio Garcia
+Max Homa
+Matt Kuchar
+Si Woo Kim
+Cam Davis
+Matt Wallace
+Harry Higgs
+Stephan Jaeger
+Matthew NeSmith
+Jim Knous
+Chase Seiffert
+Ben Kohles
+Kurt Kitayama
+Nick Taylor
+Rory McIlroy
+Jim Herman
+Scott Piercy
+Turk Pettit
+Hank Lebioda
+Scott Gutschewski
+Luke List
+Patrick Reed
+William McGirt
+Richy Werenski
+Jhonattan Vegas
+Russell Knox
+Ben Martin
+Russell Henley
+Peter Uihlein
+Cameron Young
+Drew Nesbitt
+Austin Smotherman
+Brendan Steele
+Anirban Lahiri
+C.T. Pan
+Marc Leishman
+J.T. Poston
+Matt Fitzpatrick
+Danny Lee
+Justin Lower
+Hayden Buckley
+Adam Schenk
+Taylor Moore
+Roger Sloan
+Keith Mitchell
+Chad Ramey
+Vaughn Taylor
+David Lipsky
+Brandon Hagy
+Brian Harman
+Camilo Villegas
+Chez Reavie
+Tony Finau
+Francesco Molinari
+Webb Simpson
+Corey Conners
+Abraham Ancer
+Robert Garrigus
+Dawie van der Walt
+Seth Reeves
+Matthias Schwab
+Chesson Hadley
+Alex Smalley
+Trey Mullinax
+Gary Woodland
+Nate Lashley
+Adam Long
+Jason Dufner
+Cameron Percy
+David Skinns
+Brandon Matthews
+Brandon Wu
+Kevin Chappell
+Kramer Hickok
+Henrik Norlander
+Martin Laird
+Tyrrell Hatton
+Sepp Straka
+Seamus Power
+Keegan Bradley
+Lanto Griffin
+Zach Johnson
+Charl Schwartzel
+Kelly Kraft
+Joseph Bramlett
+Bryson Nimmer
+Charley Hoffman
+Michael Thompson
+Sung Kang
+Michael Gligic
+Jonas Blixt
+Troy Merritt
+John Huh
+Doug Ghim
+Dylan Frittelli
+Luke Donald
+Tommy Gainey
+Brice Garnett
+Mark Hubbard
+Andrew Putnam
+David Lingmerth
+Andrew Novak
+Greyson Sigg
+Bo Van Pelt
+Vince Whaley
+Tyler Duncan
+Bo Hoag
+Jonathan Byrd
+Ryan Blaum
+Ryan Armour
+Brian Stuard
+Johnson Wagner
+Jared Wolfe
+Brett Drewitt
+Morgan Hoffmann
+Kevin Tway
+Bill Haas
+Kiradech Aphibarnrat
+Joshua Creel
+Eugenio Chacarra (a)
+Matt Jones
+Satoshi Kodaira
+Kevin Streelman
+Doc Redman
+Aaron Baddeley
+Branden Grace
+Lucas Glover
+Larkin Gross
+Norman Xiong
+Lee Hodges
+Jacob Bridgeman (a)
+Beau Hossler
+Greg Odom Jr. (a)
+Max McGreevy
+Nicholas Thompson
+Martin Trainer
+Curtis Thompson
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+0 Jason Day
+1 Joel Dahmen
+2 Paul Barjon
+3 Matthew Wolff
+4 Denny McCarthy
+5 Aaron Rai
+6 Callum Tarren
+7 Rickie Fowler
+8 Stewart Cink
+9 Wesley Bryan
+10 James Hahn
+11 Mackenzie Hughes
+12 Dylan Wu
+13 K.H. Lee
+14 Nick Watney
+15 Adam Svensson
+16 Rory Sabbatini
+17 Austin Cook
+18 Peter Malnati
+19 Sergio Garcia
+20 Max Homa
+21 Matt Kuchar
+22 Si Woo Kim
+23 Cam Davis
+24 Matt Wallace
+25 Harry Higgs
+26 Stephan Jaeger
+27 Matthew NeSmith
+28 Jim Knous
+29 Chase Seiffert
+30 Ben Kohles
+31 Kurt Kitayama
+32 Nick Taylor
+33 Rory McIlroy
+34 Jim Herman
+35 Scott Piercy
+36 Turk Pettit
+37 Hank Lebioda
+38 Scott Gutschewski
+39 Luke List
+40 Patrick Reed
+41 William McGirt
+42 Richy Werenski
+43 Jhonattan Vegas
+44 Russell Knox
+45 Ben Martin
+46 Russell Henley
+47 Peter Uihlein
+48 Cameron Young
+49 Drew Nesbitt
+50 Austin Smotherman
+51 Brendan Steele
+52 Anirban Lahiri
+53 C.T. Pan
+54 Marc Leishman
+55 J.T. Poston
+56 Matt Fitzpatrick
+57 Danny Lee
+58 Justin Lower
+59 Hayden Buckley
+60 Adam Schenk
+61 Taylor Moore
+62 Roger Sloan
+63 Keith Mitchell
+64 Chad Ramey
+65 Vaughn Taylor
+66 David Lipsky
+67 Brandon Hagy
+68 Brian Harman
+69 Camilo Villegas
+70 Chez Reavie
+71 Tony Finau
+72 Francesco Molinari
+73 Webb Simpson
+74 Corey Conners
+75 Abraham Ancer
+76 Robert Garrigus
+77 Dawie van der Walt
+78 Seth Reeves
+79 Matthias Schwab
+80 Chesson Hadley
+81 Alex Smalley
+82 Trey Mullinax
+83 Gary Woodland
+84 Nate Lashley
+85 Adam Long
+86 Jason Dufner
+87 Cameron Percy
+88 David Skinns
+89 Brandon Matthews
+90 Brandon Wu
+91 Kevin Chappell
+92 Kramer Hickok
+93 Henrik Norlander
+94 Martin Laird
+95 Tyrrell Hatton
+96 Sepp Straka
+97 Seamus Power
+98 Keegan Bradley
+99 Lanto Griffin
+100 Zach Johnson
+101 Charl Schwartzel
+102 Kelly Kraft
+103 Joseph Bramlett
+104 Bryson Nimmer
+105 Charley Hoffman
+106 Michael Thompson
+107 Sung Kang
+108 Michael Gligic
+109 Jonas Blixt
+110 Troy Merritt
+111 John Huh
+112 Doug Ghim
+113 Dylan Frittelli
+114 Luke Donald
+115 Tommy Gainey
+116 Brice Garnett
+117 Mark Hubbard
+118 Andrew Putnam
+119 David Lingmerth
+120 Andrew Novak
+121 Greyson Sigg
+122 Bo Van Pelt
+123 Vince Whaley
+124 Tyler Duncan
+125 Bo Hoag
+126 Jonathan Byrd
+127 Ryan Blaum
+128 Ryan Armour
+129 Brian Stuard
+130 Johnson Wagner
+131 Jared Wolfe
+132 Brett Drewitt
+133 Morgan Hoffmann
+134 Kevin Tway
+135 Bill Haas
+136 Kiradech Aphibarnrat
+137 Joshua Creel
+138 Eugenio Chacarra (a)
+139 Matt Jones
+140 Satoshi Kodaira
+141 Kevin Streelman
+142 Doc Redman
+143 Aaron Baddeley
+144 Branden Grace
+145 Lucas Glover
+146 Larkin Gross
+147 Norman Xiong
+148 Lee Hodges
+149 Jacob Bridgeman (a)
+150 Beau Hossler
+151 Greg Odom Jr. (a)
+152 Max McGreevy
+153 Nicholas Thompson
+154 Martin Trainer
+155 Curtis Thompson
+Jason Day
+Joel Dahmen
+Paul Barjon
+Matthew Wolff
+Denny McCarthy
+Aaron Rai
+Callum Tarren
+Rickie Fowler
+Stewart Cink
+Wesley Bryan
+James Hahn
+Mackenzie Hughes
+Dylan Wu
+K.H. Lee
+Nick Watney
+Adam Svensson
+Rory Sabbatini
+Austin Cook
+Peter Malnati
+Sergio Garcia
+Max Homa
+Matt Kuchar
+Si Woo Kim
+Cam Davis
+Matt Wallace
+Harry Higgs
+Stephan Jaeger
+Matthew NeSmith
+Jim Knous
+Chase Seiffert
+Ben Kohles
+Kurt Kitayama
+Nick Taylor
+Rory McIlroy
+Jim Herman
+Scott Piercy
+Turk Pettit
+Hank Lebioda
+Scott Gutschewski
+Luke List
+Patrick Reed
+William McGirt
+Richy Werenski
+Jhonattan Vegas
+Russell Knox
+Ben Martin
+Russell Henley
+Peter Uihlein
+Cameron Young
+Drew Nesbitt
+Austin Smotherman
+Brendan Steele
+Anirban Lahiri
+C.T. Pan
+Marc Leishman
+J.T. Poston
+Matt Fitzpatrick
+Danny Lee
+Justin Lower
+Hayden Buckley
+Adam Schenk
+Taylor Moore
+Roger Sloan
+Keith Mitchell
+Chad Ramey
+Vaughn Taylor
+David Lipsky
+Brandon Hagy
+Brian Harman
+Camilo Villegas
+Chez Reavie
+Tony Finau
+Francesco Molinari
+Webb Simpson
+Corey Conners
+Abraham Ancer
+Robert Garrigus
+Dawie van der Walt
+Seth Reeves
+Matthias Schwab
+Chesson Hadley
+Alex Smalley
+Trey Mullinax
+Gary Woodland
+Nate Lashley
+Adam Long
+Jason Dufner
+Cameron Percy
+David Skinns
+Brandon Matthews
+Brandon Wu
+Kevin Chappell
+Kramer Hickok
+Henrik Norlander
+Martin Laird
+Tyrrell Hatton
+Sepp Straka
+Seamus Power
+Keegan Bradley
+Lanto Griffin
+Zach Johnson
+Charl Schwartzel
+Kelly Kraft
+Joseph Bramlett
+Bryson Nimmer
+Charley Hoffman
+Michael Thompson
+Sung Kang
+Michael Gligic
+Jonas Blixt
+Troy Merritt
+John Huh
+Doug Ghim
+Dylan Frittelli
+Luke Donald
+Tommy Gainey
+Brice Garnett
+Mark Hubbard
+Andrew Putnam
+David Lingmerth
+Andrew Novak
+Greyson Sigg
+Bo Van Pelt
+Vince Whaley
+Tyler Duncan
+Bo Hoag
+Jonathan Byrd
+Ryan Blaum
+Ryan Armour
+Brian Stuard
+Johnson Wagner
+Jared Wolfe
+Brett Drewitt
+Morgan Hoffmann
+Kevin Tway
+Bill Haas
+Kiradech Aphibarnrat
+Joshua Creel
+Eugenio Chacarra (a)
+Matt Jones
+Satoshi Kodaira
+Kevin Streelman
+Doc Redman
+Aaron Baddeley
+Branden Grace
+Lucas Glover
+Larkin Gross
+Norman Xiong
+Lee Hodges
+Jacob Bridgeman (a)
+Beau Hossler
+Greg Odom Jr. (a)
+Max McGreevy
+Nicholas Thompson
+Martin Trainer
+Curtis Thompson
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+0 Jason Day
+1 Joel Dahmen
+2 Paul Barjon
+3 Matthew Wolff
+4 Denny McCarthy
+5 Aaron Rai
+6 Callum Tarren
+7 Rickie Fowler
+8 Stewart Cink
+9 Wesley Bryan
+10 James Hahn
+11 Mackenzie Hughes
+12 Dylan Wu
+13 K.H. Lee
+14 Nick Watney
+15 Adam Svensson
+16 Rory Sabbatini
+17 Austin Cook
+18 Peter Malnati
+19 Sergio Garcia
+20 Max Homa
+21 Matt Kuchar
+22 Si Woo Kim
+23 Cam Davis
+24 Matt Wallace
+25 Harry Higgs
+26 Stephan Jaeger
+27 Matthew NeSmith
+28 Jim Knous
+29 Chase Seiffert
+30 Ben Kohles
+31 Kurt Kitayama
+32 Nick Taylor
+33 Rory McIlroy
+34 Jim Herman
+35 Scott Piercy
+36 Turk Pettit
+37 Hank Lebioda
+38 Scott Gutschewski
+39 Luke List
+40 Patrick Reed
+41 William McGirt
+42 Richy Werenski
+43 Jhonattan Vegas
+44 Russell Knox
+45 Ben Martin
+46 Russell Henley
+47 Peter Uihlein
+48 Cameron Young
+49 Drew Nesbitt
+50 Austin Smotherman
+51 Brendan Steele
+52 Anirban Lahiri
+53 C.T. Pan
+54 Marc Leishman
+55 J.T. Poston
+56 Matt Fitzpatrick
+57 Danny Lee
+58 Justin Lower
+59 Hayden Buckley
+60 Adam Schenk
+61 Taylor Moore
+62 Roger Sloan
+63 Keith Mitchell
+64 Chad Ramey
+65 Vaughn Taylor
+66 David Lipsky
+67 Brandon Hagy
+68 Brian Harman
+69 Camilo Villegas
+70 Chez Reavie
+71 Tony Finau
+72 Francesco Molinari
+73 Webb Simpson
+74 Corey Conners
+75 Abraham Ancer
+76 Robert Garrigus
+77 Dawie van der Walt
+78 Seth Reeves
+79 Matthias Schwab
+80 Chesson Hadley
+81 Alex Smalley
+82 Trey Mullinax
+83 Gary Woodland
+84 Nate Lashley
+85 Adam Long
+86 Jason Dufner
+87 Cameron Percy
+88 David Skinns
+89 Brandon Matthews
+90 Brandon Wu
+91 Kevin Chappell
+92 Kramer Hickok
+93 Henrik Norlander
+94 Martin Laird
+95 Tyrrell Hatton
+96 Sepp Straka
+97 Seamus Power
+98 Keegan Bradley
+99 Lanto Griffin
+100 Zach Johnson
+101 Charl Schwartzel
+102 Kelly Kraft
+103 Joseph Bramlett
+104 Bryson Nimmer
+105 Charley Hoffman
+106 Michael Thompson
+107 Sung Kang
+108 Michael Gligic
+109 Jonas Blixt
+110 Troy Merritt
+111 John Huh
+112 Doug Ghim
+113 Dylan Frittelli
+114 Luke Donald
+115 Tommy Gainey
+116 Brice Garnett
+117 Mark Hubbard
+118 Andrew Putnam
+119 David Lingmerth
+120 Andrew Novak
+121 Greyson Sigg
+122 Bo Van Pelt
+123 Vince Whaley
+124 Tyler Duncan
+125 Bo Hoag
+126 Jonathan Byrd
+127 Ryan Blaum
+128 Ryan Armour
+129 Brian Stuard
+130 Johnson Wagner
+131 Jared Wolfe
+132 Brett Drewitt
+133 Morgan Hoffmann
+134 Kevin Tway
+135 Bill Haas
+136 Kiradech Aphibarnrat
+137 Joshua Creel
+138 Eugenio Chacarra (a)
+139 Matt Jones
+140 Satoshi Kodaira
+141 Kevin Streelman
+142 Doc Redman
+143 Aaron Baddeley
+144 Branden Grace
+145 Lucas Glover
+146 Larkin Gross
+147 Norman Xiong
+148 Lee Hodges
+149 Jacob Bridgeman (a)
+150 Beau Hossler
+151 Greg Odom Jr. (a)
+152 Max McGreevy
+153 Nicholas Thompson
+154 Martin Trainer
+155 Curtis Thompson
+Jason Day
+Joel Dahmen
+Paul Barjon
+Matthew Wolff
+Denny McCarthy
+Aaron Rai
+Callum Tarren
+Rickie Fowler
+Stewart Cink
+Wesley Bryan
+James Hahn
+Mackenzie Hughes
+Dylan Wu
+K.H. Lee
+Nick Watney
+Adam Svensson
+Rory Sabbatini
+Austin Cook
+Peter Malnati
+Sergio Garcia
+Max Homa
+Matt Kuchar
+Si Woo Kim
+Cam Davis
+Matt Wallace
+Harry Higgs
+Stephan Jaeger
+Matthew NeSmith
+Jim Knous
+Chase Seiffert
+Ben Kohles
+Kurt Kitayama
+Nick Taylor
+Rory McIlroy
+Jim Herman
+Scott Piercy
+Turk Pettit
+Hank Lebioda
+Scott Gutschewski
+Luke List
+Patrick Reed
+William McGirt
+Richy Werenski
+Jhonattan Vegas
+Russell Knox
+Ben Martin
+Russell Henley
+Peter Uihlein
+Cameron Young
+Drew Nesbitt
+Austin Smotherman
+Brendan Steele
+Anirban Lahiri
+C.T. Pan
+Marc Leishman
+J.T. Poston
+Matt Fitzpatrick
+Danny Lee
+Justin Lower
+Hayden Buckley
+Adam Schenk
+Taylor Moore
+Roger Sloan
+Keith Mitchell
+Chad Ramey
+Vaughn Taylor
+David Lipsky
+Brandon Hagy
+Brian Harman
+Camilo Villegas
+Chez Reavie
+Tony Finau
+Francesco Molinari
+Webb Simpson
+Corey Conners
+Abraham Ancer
+Robert Garrigus
+Dawie van der Walt
+Seth Reeves
+Matthias Schwab
+Chesson Hadley
+Alex Smalley
+Trey Mullinax
+Gary Woodland
+Nate Lashley
+Adam Long
+Jason Dufner
+Cameron Percy
+David Skinns
+Brandon Matthews
+Brandon Wu
+Kevin Chappell
+Kramer Hickok
+Henrik Norlander
+Martin Laird
+Tyrrell Hatton
+Sepp Straka
+Seamus Power
+Keegan Bradley
+Lanto Griffin
+Zach Johnson
+Charl Schwartzel
+Kelly Kraft
+Joseph Bramlett
+Bryson Nimmer
+Charley Hoffman
+Michael Thompson
+Sung Kang
+Michael Gligic
+Jonas Blixt
+Troy Merritt
+John Huh
+Doug Ghim
+Dylan Frittelli
+Luke Donald
+Tommy Gainey
+Brice Garnett
+Mark Hubbard
+Andrew Putnam
+David Lingmerth
+Andrew Novak
+Greyson Sigg
+Bo Van Pelt
+Vince Whaley
+Tyler Duncan
+Bo Hoag
+Jonathan Byrd
+Ryan Blaum
+Ryan Armour
+Brian Stuard
+Johnson Wagner
+Jared Wolfe
+Brett Drewitt
+Morgan Hoffmann
+Kevin Tway
+Bill Haas
+Kiradech Aphibarnrat
+Joshua Creel
+Eugenio Chacarra (a)
+Matt Jones
+Satoshi Kodaira
+Kevin Streelman
+Doc Redman
+Aaron Baddeley
+Branden Grace
+Lucas Glover
+Larkin Gross
+Norman Xiong
+Lee Hodges
+Jacob Bridgeman (a)
+Beau Hossler
+Greg Odom Jr. (a)
+Max McGreevy
+Nicholas Thompson
+Martin Trainer
+Curtis Thompson
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+2022-05-06 01:58:20.397143
+156 players data downloaded
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+2022-05-06 01:59:08.300887
+156 players data downloaded
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+2022-05-06 02:00:07.402354
+156 players data downloaded
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+2022-05-06 02:01:04.320730
+156 players data downloaded
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+2022-05-06 02:02:06.799246
+156 players data downloaded
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+2022-05-06 02:03:06.342746
+156 players data downloaded
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+2022-05-06 19:30:08.289455
+156 players data downloaded
+/Users/stephenbroe/Desktop/Business/Data_Science_Projects/Masters/masters_django/download_data
+2022-05-06 19:40:06.316144
+156 players data downloaded

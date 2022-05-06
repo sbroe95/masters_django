@@ -1,0 +1,72 @@
+{% load static %}
+{% block table %}
+    <style>
+        .styled-table {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            min-width: 400px;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .styled-table thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+        }
+
+        .styled-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .styled-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        .styled-table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+
+        .styled-table tbody tr.active-row {
+            font-weight: bold;
+            color: #009879;
+        }
+    </style>
+    <h2>Sweepstakes Leaderboard</h2>
+    {% if scores %}
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Gent</th>
+                <th>Player 1</th>
+                <th>Player 2</th>
+                <th>Player 3</th>
+                <th>Score</th>
+                <th>Predicted Score</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            {% for score in scores %}
+                <td>{{score.user_name}}</td>
+                <td>{{score.player_1}}</td>
+                <td>{{score.player_2}}</td>
+                <td>{{score.player_3}}</td>
+                <td>{{score.score}}</td>
+                <td>{{score.predicted_score}}</td>
+            </tr>
+            {% endfor%}
+        </tbody>
+    </table>
+    {% else %}
+        <h3> No data</h3>
+    {% endif %}
+{% endblock table %}
