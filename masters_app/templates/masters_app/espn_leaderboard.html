@@ -40,7 +40,7 @@
             color: #009879;
         }
     </style>
-    <h2>Wells Fargo Leaderboard</h2>
+    <h2>PGA Championship Leaderboard</h2>
     {% if espn %}
     <table class="styled-table">
         <thead>
@@ -56,7 +56,7 @@
             {% for row in espn %}
                 <td>{{row.player_id}}</td>
                 <td>{{row.thru}}</td>
-                <td>{{row.to_par}}</td>
+                <td>{{row.to_par|default_if_none:"-"}}</td>
             </tr>
             {% endfor%}
         </tbody>
