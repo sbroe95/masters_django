@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# bin_dir="/$HOME/bin"
-bin_dir="/usr/local/bin"
+bin_dir="/home/stephenbroe/go/bin"
+#bin_dir="/usr/local/bin"
 
 pup_path='.competitors tbody tr json{}'
 
@@ -11,10 +11,9 @@ pup_path='.competitors tbody tr json{}'
 # exit 0
 
 "$bin_dir/pup" "$pup_path" | \
-    "$bin_dir/jq" '[.[] | {
-
+    "/usr/bin/jq" '[.[] | {
         cut_element: .children[0].children[0].class,
-        cut_score: .children[4].text,
+        cut_score: .children[5].text,
         pos: .children[1].text,
         player: .children[3].children[1].text,
         country_flag_image: .children[3].children[0].src,
@@ -27,5 +26,4 @@ pup_path='.competitors tbody tr json{}'
         r3: .children[9].text,
         r4: .children[10].text,
         tot: .children[11].text,
-         
     }]'

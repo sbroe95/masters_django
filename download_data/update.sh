@@ -6,6 +6,8 @@ url="https://www.espn.com/golf/leaderboard"
 # Current directory
 dir_base=$(dirname "$BASH_SOURCE")
 
+echo dir base is $(ls $dir_base)
+
 # Data dir, `data`, where all files are saved
 dir_data="$dir_base/data"
 mkdir -p "$dir_data"
@@ -15,7 +17,7 @@ filename="data_new.json"
 filename_softlink="data.json"
 
 # Download HTML, parse the players, add attribution/timestamps, save to timestamped filename
-curl -Ss "$url" | "$dir_base/parse_players.sh" | /usr/local/bin/jq "{
+curl -Ss "$url" | "$dir_base/parse_players.sh" | /usr/bin/jq "{
         last_updated: \"$timestamp_seconds\",
         last_updated_str: \"$timestamp_iso\",
         data_source: \"$url\",

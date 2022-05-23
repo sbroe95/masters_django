@@ -60,17 +60,12 @@ class ESPN(models.Model):
 
     class Meta:
         db_table = 'masters_espn'
-        # constraints = [
-        #     models.UniqueConstraint(fields=['player'], name='unique player')
-        # ]
 
 class Scores(models.Model):
-    # id = models.IntegerField()
-    # user_name = models.ForeignKey(User, on_delete=models.DO_NOTHING, related_name="user_name")
-    # player_1 = models.ForeignKey(Player, on_delete=models.DO_NOTHING, related_name="scores_player_1")
-    # player_2 = models.ForeignKey(Player, on_delete=models.DO_NOTHING, related_name="scores_player_2")
-    # player_3 = models.ForeignKey(Player, on_delete=models.DO_NOTHING, related_name="scores_player_3")
-    user_name = models.TextField(primary_key=True)
+    id = models.IntegerField(primary_key=True)
+    user_id = models.IntegerField()
+    image = models.TextField()
+    user_name = models.TextField()
     player_1 = models.TextField()
     player_2 = models.TextField()
     player_3 = models.TextField()
