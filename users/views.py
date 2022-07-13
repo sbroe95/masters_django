@@ -22,6 +22,7 @@ def register(request):
 def profile(request):
 #    player = Player.objects.all().order_by("odds_points")
     espn = ESPN.objects.all().order_by("row_num").values()
+    player = Player.objects.all().order_by("odds_points")
     if request.method == 'POST':
         p_form = ProfileUpdateForm(
             request.POST,
@@ -32,7 +33,8 @@ def profile(request):
         context = {
             "p_form": p_form,
             "choices_form": choices_form,
-            "espn": espn
+            # "espn": espn
+            'player':player
         }
         if p_form.is_valid() and choices_form.is_valid():
             p_form.save()
@@ -86,7 +88,8 @@ def profile(request):
             context = {
                 "p_form": p_form,
                 "choices_form": choices_form,
-                "espn": espn,
+                # "espn": espn,
+                'player':player,
                 "player_choices": player_choices
             }
             
@@ -102,7 +105,8 @@ def profile(request):
             context = {
                 "p_form": p_form,
                 "choices_form": choices_form,
-                "espn": espn,
+                # "espn": espn,
+                'player':player
             }
         except Exception as e:
             choices_form = ChoicesUpdateForm(initial={
@@ -115,7 +119,8 @@ def profile(request):
             context = {
                 "p_form": p_form,
                 "choices_form": choices_form,
-                "espn": espn,
+                # "espn": espn,
+                'player':player
             }
             raise
     
