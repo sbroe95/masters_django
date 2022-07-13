@@ -34,9 +34,14 @@ with engine.connect() as con:
             if response.status_code==404:
                 print(f"{row[0]} image not found")
                 #Load the image
-                img = Image.open('../media/default.jpg')
-                img.save(f"../media/player_pics/{image_filename}")
-                img.close()
+                # img = Image.open('../media/default.jpg')
+                # img.save(f"../media/player_pics/{image_filename}")
+                # img.close()
+
+                url = 'https://cdn-icons-png.flaticon.com/512/39/39675.png'
+                default_response = requests.get(url)
+                with open(f"../media/player_pics/{image_filename}", "wb") as file:
+                    file.write(default_response.content)
             else:
                 with open(f"../media/player_pics/{image_filename}", "wb") as file:
                     file.write(response.content)
