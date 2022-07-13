@@ -60,22 +60,22 @@
             <fieldset class="form-group">
                 {{ p_form.as_p }}
             </fieldset>
-            <fieldset class="form-group">
+            <!-- <fieldset class="form-group">
                 <legend class="border-bottom mb-4">Player Choices</legend>
                 {{ choices_form| crispy }}
-            </fieldset>
+            </fieldset> -->
             {% if player_choices %}
             <table class="styled-table">
-                <thead>
+                <!-- <thead>
                     <tr>
                         <th>Player 1</th>
                         <th>Player 2</th>
                         <th>Player 3</th>
                     </tr>
-                </thead>
+                </thead> -->
                 <tbody>
                     </tr>
-                        <!-- <td class="leftHeader">Left Header</td> -->
+                        <td class="leftHeader">Left Header</td>
                         <td>{{player_choices.player_1.player_name}}</td>
                         <td>{{player_choices.player_2.player_name}}</td>
                         <td>{{player_choices.player_3.player_name}}</td>
@@ -98,3 +98,4 @@
     {% block table %}
     {% endblock table %}
 {% endblock content %}
+

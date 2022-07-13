@@ -11,7 +11,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 import numpy as np
 
-with open('database/config.json') as config_file:
+with open('/etc/config.json') as config_file:
     config = json.load(config_file)
 
 DB_USER = config['DB_USER'] 
@@ -82,3 +82,4 @@ with Session() as session:
     df.to_sql('masters_espn', con=engine, if_exists='append',index=False)
     session.commit()
     session.close()
+
