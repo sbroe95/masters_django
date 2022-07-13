@@ -39,12 +39,29 @@
             font-weight: bold;
             color: #009879;
         }
+
+        .rounded-circle {
+            /* min-width: 100px;
+            min-height: 100px;
+            max-width: 100px;
+            max-height: 100px; */
+            height: 100px;
+            width: 100px;
+        }
+
+        .account-img {
+            object-fit:contain;
+            width:100px;
+            height:50px;
+            /* border: solid 1px #CCC */
+            }
     </style>
     <h2>Sweepstakes Leaderboard</h2>
     {% if scores %}
     <table class="styled-table">
         <thead>
             <tr>
+                <th> </th>
                 <th>Gent</th>
                 <th>Player 1</th>
                 <th>Player 2</th>
@@ -55,18 +72,17 @@
             </tr>
         </thead>
         <tbody>
-            {% for score in scores %}
-                <td>{{score.user_name}}</td>
-                <td>{{score.player_1}}</td>
-                <td>{{score.player_2}}</td>
-                <td>{{score.player_3}}</td>
-                <td>{{score.score}}</td>
-                <td>{{score.predicted_score}}</td>
+            {% for row in scores %}
+                <td><img class="account-img" src="/media/{{row.image}}"></td>
+                <td>{{row.user_name}}</td>
+                <td>{{row.player_1}}</td>
+                <td>{{row.player_2}}</td>
+                <td>{{row.player_3}}</td>
+                <td>{{row.score}}</td>
+                <td>{{row.predicted_score}}</td>
             </tr>
             {% endfor%}
         </tbody>
     </table>
-    {% else %}
-        <h3> No data</h3>
     {% endif %}
 {% endblock table %}

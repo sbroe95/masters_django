@@ -4,11 +4,9 @@ from django.views.generic import (
     ListView, DetailView, CreateView, UpdateView, DeleteView
 )
 from django.contrib.auth.models import User
-from django.db import models
-from django.db.models.functions import Cast
 
 from .models import Post, Player
-from users.models import Scores, ESPN
+from users.models import Scores,ESPN
 
 def home(request):
     context ={
@@ -79,8 +77,12 @@ def about(request):
     return render(request, 'masters_app/about.html', {"player": player})
 
 def stats(request):
-    scores = Scores.objects.all().order_by("score").values()
     espn = ESPN.objects.all().order_by("row_num").values()
-    context = {"scores": scores, "espn": espn}
+    scores = Scores.objects.all()
+
+    context = {
+        "scores": scores, 
+        "espn": espn
+        }
     return render(request, 'masters_app/stats.html', context)
 

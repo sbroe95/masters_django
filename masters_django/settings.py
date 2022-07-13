@@ -16,6 +16,13 @@ import json
 with open('/etc/config.json') as config_file:
     config = json.load(config_file)
 
+print(f" *****************************")
+print(f" *****************************")
+print(f"allowed hosts {config['ALLOWED_HOSTS']}")
+print(f" db host {config['DB_HOST']}")
+print(f"{os.getcwd()}")
+
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -44,7 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'mod_wsgi.server',
+    # 'mod_wsgi.server',
 ]
 
 MIDDLEWARE = [

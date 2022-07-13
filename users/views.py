@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
-from users.models import PlayerChoices, Player
+from users.models import PlayerChoices, Player, ESPN
 
 from .forms import UserRegisterForm, ProfileUpdateForm, ChoicesUpdateForm
 
@@ -20,7 +20,8 @@ def register(request):
 
 @login_required
 def profile(request):
-    player = Player.objects.all().order_by("odds_points")
+    # player = Player.objects.all().order_by("odds_points")
+    espn = ESPN.objects.all().order_by("row_num").values()
 
     if request.method == 'POST':
         p_form = ProfileUpdateForm(
@@ -45,18 +46,36 @@ def profile(request):
             )
             messages.success(request, 'Your account has been updated')
             return redirect('profile')
-
+        if p_form.is_valid():
+            p_form.save()
+            choices_form = ChoicesUpdateForm(initial={
+                'player_1': player_choices.player_1,
+                'player_2': player_choices.player_2,
+                'player_3': player_choices.player_3,
+                'predicted_score': player_choices.predicted_score
+            })
+            return redirect('profile')
     else:
+        p_form = ProfileUpdateForm(instance=request.user.profile)
         try:
             player_choices = PlayerChoices.objects.get(user_id=request.user.id)
-            choices_form = ChoicesUpdateForm(initial={
-            'player_1': player_choices.player_1,
-            'player_2': player_choices.player_2,
-            'player_3': player_choices.player_3,
-            'predicted_score': player_choices.predicted_score
+
+            choices_form = ChoicesUpdateForm(
+                initial={
+                    'player_1': player_choices.player_1,
+                    'player_2': player_choices.player_2,
+                    'player_3': player_choices.player_3,
+                    'predicted_score': player_choices.predicted_score
+                }
+            )
+            print("after form")
+            context = {
+                "p_form": p_form,
+                "choices_form": choices_form,
+                "espn": espn,
+                "player_choices": player_choices
             }
-        )
-        except Exception as e:
+        except PlayerChoices.DoesNotExist:
             choices_form = ChoicesUpdateForm(initial={
                 'player_1': PlayerChoices._meta.get_field('player_1').get_default(),
                 'player_2': PlayerChoices._meta.get_field('player_2').get_default(),
@@ -65,12 +84,12 @@ def profile(request):
                 }
             )
             
-        p_form = ProfileUpdateForm(instance=request.user.profile)
+            context = {
+                "p_form": p_form,
+                "choices_form": choices_form,
+                "espn": espn,
+            }
+    
         
-    context = {
-        "p_form": p_form,
-        "choices_form": choices_form,
-        "player": player
-
-    }
+    
     return render(request, 'users/profile.html', context)

@@ -14,7 +14,7 @@ pup_path='.competitors tbody tr json{}'
     "$bin_dir/jq" '[.[] | {
 
         cut_element: .children[0].children[0].class,
-        cut_score: .children[4].text,
+        cut_score: .children[5].text,
         pos: .children[1].text,
         player: .children[3].children[1].text,
         country_flag_image: .children[3].children[0].src,
@@ -23,8 +23,8 @@ pup_path='.competitors tbody tr json{}'
         today: .children[5].text,
         thru: .children[6].text,
         r1: .children[7].text,
-        r2: .children[8].text,
-        r3: .children[9].text,
+        r2: .children[7].text,
+        r3: .children[8].text,
         r4: .children[10].text,
         tot: .children[11].text,
          

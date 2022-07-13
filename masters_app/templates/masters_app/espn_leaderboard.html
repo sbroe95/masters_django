@@ -39,13 +39,20 @@
             font-weight: bold;
             color: #009879;
         }
+
+        .account-img {
+            object-fit:contain;
+            width:100px;
+            height:50px;
+            /* border: solid 1px #CCC */
+            }
     </style>
     <h2>PGA Championship Leaderboard</h2>
     {% if espn %}
     <table class="styled-table">
         <thead>
             <tr>
-                
+                <th> </th>
                 <th>Player</th>
                 <th>Thru</th>
                 <th>To Par</th>
@@ -54,6 +61,7 @@
         </thead>
         <tbody>
             {% for row in espn %}
+                <td><img class="account-img" src="/media/{{ row.link }}" ></td>
                 <td>{{row.player_id}}</td>
                 <td>{{row.thru}}</td>
                 <td>{{row.to_par|default_if_none:"-"}}</td>

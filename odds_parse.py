@@ -22,7 +22,7 @@ records_list = []
 for item in soup.find_all("div", class_="grid outright-item"):
     name = item.contents[1].text.strip()
     odds = item.contents[3].text.strip()
-    if name == "Rory McIlroy" and odds == "8/1":
+    if name == "Rory McIlroy" and odds == "17/2":
         break
     odds = convert(odds)
     print(f"{name} : {odds}")
