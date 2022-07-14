@@ -26,7 +26,6 @@ for index, table_row in enumerate(
         "class": "PlayerRow__Overview PlayerRow__Overview--expandable Table__TR Table__even"
     }
 )):
-    print(len(table_row))
     number_of_cells_in_row = len(table_row)
     if number_of_cells_in_row==3:
         player_dict = {} 
@@ -59,7 +58,7 @@ for index, table_row in enumerate(
         tot = None
         row_num = index + 1
 
-    else:
+    elif len(table_row)==11:
         player_dict = {} 
         link = table_row.find("a", {"class": "AnchorLink"})['href']
         player_name = table_row.find("a", {"class": "AnchorLink"}).text
@@ -98,7 +97,7 @@ for index, table_row in enumerate(
     player_dict['player'] = player_name
     player_dict['country_flag_image'] = country_flag_image
     player_dict['link'] = link
-    player_dict['to_par'] = to_par
+    player_dict['to_par'] = score
     player_dict['today'] = today
     player_dict['thru'] = thru
     player_dict['r1'] = r1
