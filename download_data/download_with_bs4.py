@@ -5,6 +5,7 @@ import pandas as pd
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 import json
+from datetime import datetime
 
 def checkInt(str):
     if str[0] in ('-', '+'):
@@ -77,9 +78,9 @@ for index, table_row in enumerate(
         
         cut_flag = None
         if checkInt(to_par):
-            score = int(to_par)
+            score = str(to_par)
         elif to_par == "E":
-            score=0
+            score="0"
         else:
             score = None
             cut_flag = to_par
@@ -112,7 +113,8 @@ for index, table_row in enumerate(
 
 df = pd.DataFrame.from_records(records_list)
 
-print(df)
+print(datetime.now())
+print(f"{len(df['row_num'])} players data downloaded")
 
 
 with open('database/config.json') as config_file:
@@ -132,3 +134,5 @@ with Session() as session:
     df.to_sql('masters_espn', con=engine, if_exists='append',index=False)
     session.commit()
     session.close()
+
+
