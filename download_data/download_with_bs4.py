@@ -28,6 +28,7 @@ for index, table_row in enumerate(
     }
 )):
     number_of_cells_in_row = len(table_row)
+    # print(f"{number_of_cells_in_row} cells in row")
     if number_of_cells_in_row==3:
         player_dict = {} 
         link = table_row.find("a", {"class": "AnchorLink"})['href']
@@ -73,6 +74,7 @@ for index, table_row in enumerate(
         cell_list = table_row.find_all("td")
         
         position = cell_list[1].text
+        print(position)
         country_flag_image = cell_list[2].find("img")['src']
         to_par = cell_list[3].text
         
@@ -92,6 +94,48 @@ for index, table_row in enumerate(
         r3 = cell_list[8].text
         r4 = cell_list[9].text
         tot = cell_list[10].text
+        row_num = index + 1
+    
+    elif len(table_row)==12:
+        player_dict = {} 
+        link = table_row.find("a", {"class": "AnchorLink"})['href']
+        player_name = table_row.find("a", {"class": "AnchorLink"}).text
+        player_image_id = link.split('/')[7]
+        image_link = f"https://a.espncdn.com/combiner/i?img=/i/headshots/golf/players/full/{player_image_id}.png&w=350&h=254"
+
+        player_name_with_underscores = player_name.replace(" ", "_")
+        link = f"{player_name_with_underscores}.jpeg"
+        
+        
+        cell_list = table_row.find_all("td")
+        
+        position = cell_list[1].text
+        # print(position)
+        country_flag_image = cell_list[3].find("img")['src']
+        to_par = cell_list[4].text
+        
+        cut_flag = None
+        if checkInt(to_par):
+            score = str(to_par)
+        elif to_par == "E":
+            score="0"
+        elif to_par == "CUT":
+            score = int(cell_list[11].text) - 144
+            if score > 0:
+                score = f"+{score}"
+            else:
+                score = str(score)
+        else:
+            score = None
+            cut_flag = to_par
+        today = cell_list[5].text
+
+        thru = cell_list[6].text
+        r1 = cell_list[7].text
+        r2 = cell_list[8].text
+        r3 = cell_list[9].text
+        r4 = cell_list[10].text
+        tot = cell_list[11].text
         row_num = index + 1
 
     player_dict['pos'] = position
